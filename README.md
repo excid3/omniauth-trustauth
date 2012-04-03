@@ -38,6 +38,7 @@ Or install it yourself as:
 2. Add your handler for the OmniAuth callback. Here's an example of
    something simple:
 
+```ruby
   # your trustauth callback handler
   def trustauth
     # if the user was authenticated
@@ -56,6 +57,7 @@ Or install it yourself as:
   def auth_hash
     request.env['omniauth.auth']
   end
+```
 
 ## Contributing
 
