@@ -20,6 +20,7 @@ Or install it yourself as:
 
 1. First edit your layout.
 
+```erb
     <!-- app/views/layouts/application.html.erb -->
     <!DOCTYPE html>
     <html>
@@ -32,6 +33,7 @@ Or install it yourself as:
     </head>
     <body>
     ...
+```
 
 2. Add your handler for the OmniAuth callback. Here's an example of
    something simple:
